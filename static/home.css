@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 
-#canvas{
-    display: block;
-    margin: 0 auto;
-    background-color: #f0f0f0;
-    border: 1px solid #000;
+body{
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    background-color: #f1f1f1;
 }

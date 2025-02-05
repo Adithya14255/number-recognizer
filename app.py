@@ -12,7 +12,6 @@ from PIL import Image
 
 app = FastAPI()
 
-
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Load trained model

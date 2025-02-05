@@ -20,7 +20,7 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 # 3. Train the model
-model.fit(x_train, y_train, epochs=10, batch_size=64)
+model.fit(x_train, y_train, epochs=100, batch_size=64)
 
 # 4. Save the trained model
 model.save("model.h5")
